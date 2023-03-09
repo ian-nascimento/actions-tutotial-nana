@@ -1,7 +1,9 @@
 name: Test4
 
 on:
-  merge_request:
+  push:
+    branches:
+      - main
   
 jobs:
   build:
