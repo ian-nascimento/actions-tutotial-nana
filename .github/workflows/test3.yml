@@ -3,6 +3,7 @@ name: Test 3
 
 on:
   workflow_dispatch:
+  push:
   
 jobs:
   build:
